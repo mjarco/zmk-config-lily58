@@ -35,8 +35,6 @@
 &kp LSHFT  &kp Z    &kp X    &kp C     &kp V     &kp B          &kp LEFT_CONTROL    &kp RALT  &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH    &kp RSHFT
                              &kp LALT  &kp LGUI  &kp BACKSPACE  &kp LEFT_COMMAND    &kp RET   &kp SPACE  &kp DELETE  &kp RGUI
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -56,8 +54,6 @@
 &trans          &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &trans          &kp MINUS  &kp PLUS   &kp LBRC  &kp RBRC  &trans
                                                      &trans             &trans        &trans        &trans    &trans  &trans          &trans     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -77,8 +73,6 @@
 &trans  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS      &kp EQUAL     &kp LBKT   &kp RBKT  &trans
                         &trans   &trans   &trans   &trans    &trans  &trans       &trans         &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adjust_layer {
@@ -98,8 +92,6 @@
 &trans  &trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans            &trans      &trans  &trans
                         &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_4 {
